@@ -1,0 +1,35 @@
+	-   Association :
+	
+		-	Association is a connection or relationship between two separate classes.
+		-	Association depicts HAS-A relationship between the classes
+		
+			Ex: Employee HAS-A Address
+			      Person HAS-A Passport 
+				  
+==================	
+	-   Aggregation :
+	
+		- 	Special kind of Association. 
+		-	If an object is destroyed, it will not affect the other object. 
+		-	Other object can work independently.
+		
+			Ex: 	An Employee in a company belongs to a particular Department. 
+					If the Employee object gets destroyed still the Department can work independently.
+					
+					Bank has Customers
+					If a Customer closes his account, still the Bank object can work independently.
+			
+=================				
+	-	Composition :
+		-	Composition is another form of Aggregation which is considered as the restricted form of Association.
+		-	Entities are completely dependent on each other, unlike the aggregation.
+		
+			Ex: 
+			- 	A House has Rooms
+			- 	A single house can have multiple rooms but a single room can not have multiple houses. 
+			-	And, if we delete the house, the rooms will automatically be deleted.
+		  ---
+			- A Car has Engine
+			- Without Engine a Car cannot exist
+			
+==========================================================================================
